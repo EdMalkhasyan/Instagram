@@ -1,0 +1,82 @@
+.Messenger{
+	position: absolute;
+	width: 100%;
+	min-height: 88vh;
+	top: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.Messenger-auto{
+	width: 70%;
+	min-height: 95%;
+	border: 1px solid #dfdfdf;
+	background-color: #fff;
+	display: flex;
+}
+
+.Messenger-left-col{
+	width: 33%;
+	border-right: 1px solid #dfdfdf;
+}
+
+.Messenger-left-col-direct{
+	height: 50px;
+	font-size: 18px;
+	line-height: 50px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.Primary-General{
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+
+	display: flex;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.Primary-General p{
+	padding: 0 15px;
+	cursor: pointer;
+}
+
+.Primary-General p:focus{
+	border-bottom: 1px solid black;
+}
+
+.emptyChat {
+	color: #000;
+	width: 350px;
+	margin: 30vh auto;
+	text-align: center;
+}
+.emptyChat .img {
+	border: 2px solid black;
+	width: 90px;
+	height: 90px;
+	margin: 20px auto;
+	border-radius: 50%;
+	margin-bottom: 20px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.emptyChat .img img {
+	width: 55px;
+	height: 55px;
+	cursor: unset;
+	margin-top: 7px;
+}
+.emptyChat h1 {
+	font-size: 20px;
+	font-weight: normal;
+	margin: 10px;
+}
+.emptyChat p {
+	font-size: 13px;
+	color: rgb(151, 151, 151);
+}

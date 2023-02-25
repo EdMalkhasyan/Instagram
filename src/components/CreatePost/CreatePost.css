@@ -1,0 +1,44 @@
+.Container form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+input {
+	width: 250px;
+	padding: 5px;
+}
+
+input[name=postText] {
+	margin-bottom: 10px;
+}
+
+.input-file span {
+	cursor: pointer;
+	font-size: 14px;
+	color: rgb(255 255 255);
+	border-radius: 4px;
+	background-color: #0066ff;
+	line-height: 22px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	transition: background-color 0.2s;
+}
+ 
+/* Focus */
+.input-file input[type=file]:focus + span {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+/* Hover/active */
+.input-file:hover span {
+	background-color: #2c80ff;
+}
+.input-file:active span {
+	background-color: #0050c9;
+}
+ 
+/* Disabled */
+.input-file input[type=file]:disabled + span {
+	background-color: #eee;
+}
