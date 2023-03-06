@@ -35,7 +35,7 @@ function LoginPage() {
   return (
     <div className='LoginPage'>
       <div className='container'>
-        <img src="./static/media/logo.a96501a686589d1697a8.PNG" className="brand-img" alt=""/>
+        <img src="/static/media/logo.a96501a686589d1697a8.PNG" className="brand-img" alt=""/>
         <form ref={formRef} onSubmit={handleSubmit}>
           <input name='login' defaultValue={'bret'} type='text' placeholder='Phone number, username, or email' />
           <input name='password' defaultValue={'gwenborough'} type='text' placeholder='Password' />
