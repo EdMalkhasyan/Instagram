@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='login' element={<LoginPage />} />
-        <Route path='instagram/' element={<HomeWrapper />} >
+        <Route path='/' element={<HomeWrapper />} >
           <Route index element={<Main />}/>
           <Route path=':id/uniq' element={<UniqItem />} />
           <Route path='messenger' element={<Messenger />} />
