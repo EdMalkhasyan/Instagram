@@ -1,6 +1,13 @@
 .Messenger-right-col{
 	width: 70%;
 	min-height: 88vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.Chat {
+	flex: 1 1 auto;
 }
 
 .UserSection{
@@ -14,3 +21,17 @@
 	border-bottom: 1px solid #dfdfdf;
 }
 
+
+@media (max-width: 450px) {
+	.Messenger-right-col {
+		width: 60%;
+	}
+
+	.UserSection{
+		font-size: 16px;
+		padding: 0 10px;
+		height: 40px;
+		line-height: 40px;
+		justify-content: space-between;
+	}
+}

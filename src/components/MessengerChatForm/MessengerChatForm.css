@@ -1,10 +1,8 @@
 .Chat-input{
-	position: absolute;
-	bottom: 0;
 	line-height: 40px;
 	border: 1px solid #dfdfdf;
-	width: 45%;
-	margin: 14px 15px;
+	max-width: 95%;
+	margin: 10px;
 	border-radius: 20px;
 	padding: 0 15px;
 	display: flex;
@@ -21,4 +19,21 @@
 	width: 25px;
 	height: 25px;
 	cursor: pointer;
+}
+
+
+@media (max-width: 450px) {
+	.Chat-input{
+		margin: 5px;
+		padding: 0 5px;
+		display: flex;
+	}
+	
+	.Chat-input input{
+		line-height: 40px;
+	}
+
+	.Chat-input img{
+		display: none;
+	}
 }

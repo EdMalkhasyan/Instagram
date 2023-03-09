@@ -1,6 +1,14 @@
 .Container form {
-	width: 300px;
 	margin: 0 auto;
+}
+
+.createPost {
+	font-size: 30px;
+}
+
+.createPostImg {
+	margin: auto;
+	width: 100px;
 }
 
 input {
@@ -41,4 +49,15 @@ input[name=postText] {
 /* Disabled */
 .input-file input[type=file]:disabled + span {
 	background-color: #eee;
+}
+
+
+@media (max-width: 450px) {
+	.createPost {
+		font-size: 20px;
+	}
+
+	.createPostImg {
+		width: 60px;
+	}
 }

@@ -44,9 +44,9 @@ const CreatePost = () => {
   
   return (
     <div style={{ marginTop: "100px", textAlign: "center" }} className="Container">
-      <h1 style={{ fontSize: "50px" }}>Create Post</h1>
+      <h1 className="createPost">Create post</h1>
       <br />
-      <img style={{ margin: "auto" }} width="100px" src={IMAGES.createPost} alt=""/>
+      <img className="createPostImg" src={IMAGES.createPost} alt=""/>
       <br />
       <form ref={formRef} onSubmit={handleSubmit} style={{ marginTop: "50px" }}>
         <input name="img" type="text" placeholder="img" /><br/><br/>

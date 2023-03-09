@@ -19,3 +19,11 @@
 .MessengerChat span {
 	color: black;
 }
+
+
+@media (max-width: 450px) {
+	.MessengerChat {
+		padding: 5px;
+		font-size: 5px;
+	}
+}

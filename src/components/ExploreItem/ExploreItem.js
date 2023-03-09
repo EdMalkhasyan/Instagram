@@ -1,5 +1,3 @@
-import './ExploreItem.css'
-
 function ExploreItem({ img, likes, commentsCount }) {
   return (
 	 <div className='gallery-item'>

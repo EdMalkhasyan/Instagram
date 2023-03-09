@@ -73,6 +73,7 @@ img {
 .profile-image {
 	float: left;
 	width: calc(33.333% - 1rem);
+	width: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -81,7 +82,6 @@ img {
 
 .profile-image img {
 	border-radius: 50%;
-    height: 152px;
 }
 
 .profile-user-settings,
@@ -247,16 +247,16 @@ img {
 		display: none;
 	}
 
-	.profile-image,
+	/* .profile-image,
 	.profile-user-settings,
 	.profile-bio,
 	.profile-stats {
 		float: none;
 		width: auto;
-	}
+	} */
 
 	.profile-image img {
-		width: 7.7rem;
+		/* width: 150px; */
 	}
 
 	.profile-user-settings {
