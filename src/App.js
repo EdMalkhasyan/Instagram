@@ -15,15 +15,15 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/login' element={<LoginPage />} />
+        <Route path='login' element={<LoginPage />} />
         <Route path='/' element={<HomeWrapper />} >
           <Route index element={<Main />}/>
-          <Route path='/:id/uniq' element={<UniqItem />} />
-          <Route path='/messenger' element={<Messenger />} />
-          <Route path='/notification' element={<Notifications />} />
-          <Route path='/explore' element={<Explore />} />
-          <Route path='/profile' element={<Profile />} />
-          <Route path='/create' element={<CreatePost />} />
+          <Route path=':id/uniq' element={<UniqItem />} />
+          <Route path='messenger' element={<Messenger />} />
+          <Route path='notification' element={<Notifications />} />
+          <Route path='explore' element={<Explore />} />
+          <Route path='profile' element={<Profile />} />
+          <Route path='create' element={<CreatePost />} />
           <Route path='*' element={<ErrorPage />} />
         </Route>
       </Routes>
