@@ -23,3 +23,44 @@
 .Notic-this-week h2{
 	font-size: 20px;
 }
+
+
+@media (max-width: 1100px) {
+	.Notification-body{
+		width: 80%;
+		padding: 25px;
+	}
+}
+
+
+@media (max-width: 700px) {
+	.Notification-body{
+		padding: 20px;
+	}
+	
+	.Notic-this{
+		margin: 20px 0;
+	}
+	
+	.Notic-this-week h2{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 500px) {
+	.Notification-body{
+		padding: 10px;
+	}
+
+	.Notification-body h1{
+		font-size: 17px;
+	}
+	
+	.Notic-this{
+		margin: 14px 0;
+	}
+
+	.Notic-this h2{
+		font-size: 13px;
+	}
+}

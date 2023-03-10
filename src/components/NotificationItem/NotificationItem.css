@@ -1,6 +1,6 @@
 .NotificationItem{
-	width: 70%;
-	margin: 15px 10px;
+	width: 100%;
+	margin: 15px 0px;
 	display: flex;
 	font-size: 15px;
 	align-items: center;
@@ -13,9 +13,42 @@
 	padding: 10px 20px;
 	border-radius: 15px;
 	cursor: pointer;
+	margin-left: 10px;
 }
 
 .NotificationItem-body{
 	display: flex;
 	align-items: center;
+}
+
+
+@media (max-width: 700px) {
+	.NotificationItem{
+		font-size: 14px;
+		margin: 15px 0;
+		width: 100%;
+	}
+
+	.NotificationItemBtn{
+		margin-left: 8px;
+	}
+}
+
+@media (max-width: 500px) {
+	.NotificationItem{
+		font-size: 12px;
+		margin: 10px 0;
+		width: 100%;
+	}
+	
+	.NotificationItemBtn{
+		padding: 6px 12px;
+		margin-left: 4px;
+	}
+}
+
+@media (max-width: 400px) {
+	.NotificationItem{
+		font-size: 10px;
+	}
 }

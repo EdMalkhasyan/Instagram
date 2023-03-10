@@ -11,7 +11,7 @@ function Explore() {
 	 <div className='container Explore'>
 		<div className='gallery'>
 			{
-				currentUser?.posts.map(el => <ExploreItem key={el.id} img={el.img} likes={el.likes} commentsCount={el.commentsCount} />)
+				currentUser?.posts.map(el => <ExploreItem key={el.id} img={el.img} likesCount={el.likesCount} commentsCount={el.comments.length} />)
 			}
 		</div>
 	 </div>
