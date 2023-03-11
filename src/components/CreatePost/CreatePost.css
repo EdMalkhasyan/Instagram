@@ -1,8 +1,9 @@
-.Container form {
-	margin: 0 auto;
+.CreatePost {
+	margin: 160px auto;
+	text-align: center;
 }
 
-.createPost {
+.CreatePost h1 {
 	font-size: 30px;
 }
 
@@ -53,11 +54,15 @@ input[name=postText] {
 
 
 @media (max-width: 450px) {
-	.createPost {
-		font-size: 20px;
+	.CreatePost {
+		margin-top: 210px;
+	}
+
+	.CreatePost h1 {
+		font-size: 22px;
 	}
 
 	.createPostImg {
-		width: 60px;
+		width: 80px;
 	}
 }

@@ -4,16 +4,44 @@
   h2 {
     font-size: 25px;
     font-weight: 550;
-    margin: 100px 0 40px;
+    margin: 120px 0 40px;
   }
 
   p {
     font-size: 16px;
     letter-spacing: 0.5px;
+    padding: 0 10px;
 
     span {
       cursor: pointer;
       color: rgb(13, 17, 115);
+    }
+  }
+}
+
+
+@media (max-width: 550px) {
+  .ErrorPage {
+    h2 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .ErrorPage {
+    h2 {
+      font-size: 16px;
+      margin: 100px 0 20px;
+    }
+  
+    p {
+      font-size: 10px;
+      letter-spacing: 0;
     }
   }
 }

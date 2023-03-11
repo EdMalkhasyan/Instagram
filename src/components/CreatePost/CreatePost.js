@@ -43,8 +43,8 @@ const CreatePost = () => {
   
   
   return (
-    <div style={{ marginTop: "100px", textAlign: "center" }} className="Container">
-      <h1 className="createPost">Create post</h1>
+    <div className="CreatePost">
+      <h1>Create post</h1>
       <br />
       <img className="createPostImg" src={IMAGES.createPost} alt=""/>
       <br />
